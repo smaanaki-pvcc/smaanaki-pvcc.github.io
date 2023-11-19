@@ -1,0 +1,46 @@
+<html lang="en">
+<!--
+    NAME: your name here
+    DESCRIPTION: This program will perform simple arithmetic in JavaScript
+-->
+
+<head>
+    <title>Simple Arithmetic</title>
+    <script type="text/javascript">
+        function calculate() {
+            // Define variables
+            var num1, num2, addans, subans, mulans, divans, modans;
+
+            // Get data from user
+            num1 = prompt("Enter the first number:");
+            num2 = prompt("Enter the second number:");
+
+            // Convert input to numbers to ensure proper calculations
+            num1 = Number(num1);
+            num2 = Number(num2);
+
+            // Perform calculations
+            addans = num1 + num2;
+            subans = num1 - num2;
+            mulans = num1 * num2;
+            divans = num1 / num2;
+            modans = num1 % num2;
+
+            // Display results
+            document.write("<h1 style='color: #7D3C98;'>Arithmetic Answers</h1><br />");
+            document.write("Addition of " + num1 + " and " + num2 + " equals " + addans + "<br />");
+            document.write("Subtraction of " + num1 + " and " + num2 + " equals " + subans + "<br />");
+            document.write("Multiplication of " + num1 + " and " + num2 + " equals " + mulans + "<br />");
+            document.write("Division of " + num1 + " and " + num2 + " equals " + divans + "<br />");
+            document.write("Modulus of " + num1 + " and " + num2 + " equals " + modans + "<br />");
+            document.write("</h1>"); // Corrected to match the opening h1 tag
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" value="Click here for arithmetic calculations"
+        class="calcbutton" onclick="calculate()" />
+    </form>
+</body>
+</html>

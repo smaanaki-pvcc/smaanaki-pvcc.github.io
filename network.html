@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .table-header {
+    background-color: #c0c0c0;
+    color: #000080;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  .table-title {
+    background-color: #4682B4;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Console', monospace;
+  }
+  th, td {
+    border: 1px solid #708090;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  a {
+    color: #000080;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th colspan="2" class="table-title">Chapter 4: Networking Terms and Definitions</th>
+  </tr>
+  <tr class="table-header">
+    <td>TERM</td>
+    <td>DEFINITION</td>
+  </tr>
+  <!-- Include the terms and definitions here -->
+  <tr>
+    <td>Network Classifications</td>
+    <td>
+      <ul>
+        <li>LAN: Local Area Network, a network that spans a relatively small space.</li>
+        <li>MAN: Metropolitan Area Network, a network that covers a larger geographic area than LAN, spanning multiple buildings or even a whole city.</li>
+        <li>WAN: Wide Area Network, a network that covers broad area such as multiple cities, countries, or continents.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Network models</td>
+    <td>
+      <ul>
+        <li>Bus network: A network topology where each node is directly connected to a single communication line.</li>
+        <li>Star network: A network topology with one central hub to which all other nodes are connected.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Protocols</td>
+    <td>
+      <ul>
+        <li>CSMA/CD Ethernet: A network access method used on shared network topologies to control data transmission and avoid collisions.</li>
+        <li>CSMA/CA Wifi: A protocol for carrier transmission that tries to avoid collisions by broadcasting intent before transmitting.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Combining networks</td>
+    <td>
+      <ul>
+        <li>Repeater: A network device that regenerates or replicates signals to extend the transmission distance.</li>
+        <li>Bridge: A network device that connects multiple network segments at the data link layer.</li>
+        <li>Switch: A networking device that filters and forwards packets between LAN segments.</li>
+        <li>Router: A device that forwards data packets along networks, typically used to connect networks and route traffic between them.</li>
+        <li>Gateway: A node that serves as an access point to another network, often involving different protocols.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Client/server model</td>
+    <td>
+      <ul>
+        <li>P2P (peer-to-peer): A distributed application architecture that partitions tasks or workloads between peers.</li>
+        <li>Distributed system: A system whose components are located on different networked computers which communicate and coordinate their actions by passing messages.</li>
+        <li>Cloud computing: The delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the internet (“the cloud”).</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Internet Addressing</td>
+    <td>
+      <ul>
+        <li>Tier 1: Internet Service Providers (ISPs) that can reach every network on the internet without paying transit fees to another ISP.</li>
+        <li>Tier 2: ISPs that typically obtain internet transit at a cost from Tier 1 networks to reach the broader internet.</li>
+        <li>Tier 3: ISPs that rely on higher-tier ISPs to access the entire internet, usually customer-oriented ISPs providing local residential internet access.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>  
+    <td>IP Address</td>
+    <td>
+      <ul>
+        <li>ICANN: The organization that coordinates the allocation and assignment of unique identifiers for the internet, ensuring stable and secure operation. <a href="https://www.icann.org/">More about ICANN</a></li>
+        <li>DNS: Domain Name System, the phonebook of the internet that translates domain names to IP addresses so browsers can load internet resources.</li>
+        <li>TLD: Top-Level Domain, the last segment of the domain name, following the final dot of any domain name. <a href="https://www.worldstandards.eu/other/tlds/">List of Country-code TLDs</a></li>
+      </ul>
+    </td>
+</tr>
+<tr>
+    <td>Internet protocols</td>
+    <td>
+      <ul>
+        <li>FTP: File Transfer Protocol, a standard network protocol used for the transfer of computer files between a client and server on a computer network.</li>
+        <li>HTTP: Hypertext Transfer Protocol, the foundation of data communication for the World Wide Web.</li>
+        <li>SMTP: Simple Mail Transfer Protocol, an internet standard for email transmission across IP networks.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>World Wide Web</td>
+    <td>
+      <ul>
+        <li>URL: Uniform Resource Locator, the address of a web resource on the internet.</li>
+        <li>Client-side activities: Actions that occur on the client's computer, such as web browsing and running client-side scripts.</li>
+        <li>Server-side activities: Server operations that occur, such as serving web pages or running server-side scripts.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Internet four-layer software</td>
+    <td>
+      <ul>
+        <li>Application layer: Provides protocols which directly serve the user's applications, such as HTTP for web browsing.</li>
+        <li>Transport layer: Provides communication session management between host computers, such as TCP and UDP.</li>
+        <li>Network layer: Deals with routing of packets through the network, such as IP protocol.</li>
+        <li>Link layer: Provides data transfer between adjacent network nodes and handles error detection and framing.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Internet is</td>
+    <td>
+      <ul>
+        <li>Packet-switching network: A method of grouping data that is transmitted over a digital network into packets.</li>
+        <li>Fault tolerant: The ability of a system to continue operation even if a component fails.</li>
+        <li>Redundant: The duplication of critical components of a system with the intention of increasing reliability.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Cybersecurity</td>
+    <td>
+      <ul>
+        <li>Malware: Software designed to disrupt, damage, or gain unauthorized access to a computer system.</li>
+        <li>Virus: A type of malware that replicates by inserting copies of itself into other computer programs.</li>
+        <li>Worm: A malware program that replicates itself in order to spread to other computers.</li>
+        <li>Trojan horse: Any malicious computer program which misleads users of its true intent.</li>
+        <li>Spyware: Software that enables a user to obtain covert information about another's computer activities.</li>
+        <li>Phishing: The attempt to obtain sensitive information such as usernames, passwords, by disguising as a trustworthy entity.</li>
+        <li>DDoS attack: Distributed Denial of Service attack, an attempt to make an online service unavailable by overwhelming it with traffic from multiple sources.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Protection</td>
+    <td>
+      <ul>
+        <li>Firewall: A network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic.</li>
+        <li>Spam filter: A program that is used to detect unsolicited and unwanted email and prevent those messages from getting to a user's inbox.</li>
+        <li>Proxy server: A server that acts as an intermediary for requests from clients seeking resources from other servers.</li>
+        <li>Antivirus software: Software designed to detect and destroy computer viruses.</li>
+        <li>Cryptography: The practice and study of techniques for secure communication in the presence of third parties called adversaries.</li>
+        <li>Public key encryption: A cryptographic system that uses pairs of keys: public keys which may be disseminated widely, and private keys which are known only to the owner.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
